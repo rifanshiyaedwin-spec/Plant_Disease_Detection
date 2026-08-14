@@ -1,0 +1,6 @@
+{
+  "name": "PlantaSanitus - Smart Agriculture Platform",
+  "description": "Enterprise Smart Agriculture Platform with AI computer vision, explainable AI (XAI) multi-image plant disease diagnostics, dosage calculator, weather risk forecasting, soil NPK management, multi-role marketplace, farm lifecycle management, community forum, voice/multilingual AI assistant, and admin control.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
