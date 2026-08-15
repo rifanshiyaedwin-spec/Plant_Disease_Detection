@@ -1,5 +1,8 @@
 🌿 PlantaSanitus – Smart Agriculture Platform
+
 AI-Powered Agricultural Decision Support & Agro-Medicine E-Commerce Ecosystem
+
+
 
 📌 1. Project Overview
 
@@ -23,6 +26,8 @@ Database	SQLite
 Authentication	Flask Sessions + Werkzeug
 Frontend	HTML, CSS, JavaScript
 Visualization	Matplotlib
+
+
 
 🎯 2. Main Objective
 
@@ -64,6 +69,9 @@ Organic Treatment
 Chemical Treatment
 Preventive Measures
 XAI Highlighted Regions
+
+
+
 
 👥 3. Multi-Role Authentication System
 
@@ -107,6 +115,8 @@ Marketplace products
 System security information
 Auditing activities
 
+
+
 🤖 4. AI Plant Disease Detection
 
 Disease detection is one of the core modules of PlantaSanitus.
@@ -142,6 +152,9 @@ Organic treatment
 Chemical treatment
 Prevention
 XAI visual regions
+
+
+
 
 🧠 5. Machine Learning Architecture
 
@@ -196,6 +209,8 @@ train.py genuinely defines and trains the MobileNetV2 model. However, the curren
 This is the most technically accurate way to present the system.
 
 
+
+
 🔍 6. Explainable AI – XAI
 
 PlantaSanitus attempts to explain where the visible symptoms are located on the plant leaf, rather than simply displaying a disease name.
@@ -223,6 +238,8 @@ Cuticle decay
 This improves the interpretability and transparency of the diagnosis.
 
 
+
+
 📚 7. Plant Disease Knowledge Base
 
 The disease_info.py module contains a structured knowledge base covering 38 PlantVillage crop/disease classes according to the project documentation.
@@ -241,6 +258,8 @@ Information	Description
 🛡️ Prevention	Preventive measures
 
 This knowledge base converts a predicted disease class into practical agricultural guidance.
+
+
 
 
 🚦 8. Disease Severity & Treatment Priority
@@ -275,6 +294,9 @@ Treatment Priority
        ↓
 Recommended Action
 
+
+
+
 🧪 9. Agro-Chemical Dosage Calculator
 
 The dosage calculator helps farmers estimate treatment requirements based on field size in acres.
@@ -298,6 +320,8 @@ Day 14 → Final / Preventive Application
 Note: Actual chemical application should always follow the product label and applicable agricultural guidance.
 
 
+
+
 🌱 10. Soil Health Analysis
 
 The soil_service.py module analyzes:
@@ -315,6 +339,8 @@ Field area
      Acidic    Optimal   Alkaline
 
 The system also checks nutrient deficiencies and generates fertilizer or organic amendment recommendations.
+
+
 
 
 🌦️ 11. Weather Intelligence
@@ -338,6 +364,9 @@ Environmental Analysis
 Disease Risk
        ↓
 Farmer Advisory
+
+
+
 
 🛒 12. Agro-Medicine E-Commerce Marketplace
 
@@ -370,6 +399,9 @@ Order Processing
        ↓
 Delivery
 
+
+
+
 📱 13. QR-Based Product Guidance
 
 Each agro-medicine product can have an associated QR code.
@@ -386,6 +418,9 @@ Usage Instructions
 Treatment Guidance
 
 This feature can be particularly useful when QR codes are printed on physical product packaging.
+
+
+
 
 
 📦 14. Shopping & Order Management
@@ -412,6 +447,8 @@ Shipping address
 Order cancellation is also supported.
 
 
+
+
 💳 15. Secured Payment Gateway
 
 The project contains a dedicated payment_service.py.
@@ -430,6 +467,8 @@ Masked payment information
 ⚠️ Important
 
 The payment gateway is a simulated academic payment system and is not a real integration with a bank or payment provider.
+
+
 
 
 🤖 16. AgriBot AI Assistant
@@ -462,6 +501,9 @@ Common Rust
 Neem Oil
 Copper Fungicide
 
+
+
+
 🚜 17. Multi-Farm & Field Management
 
 PlantaSanitus supports farm-level organization through dedicated Farm and Field entities.
@@ -484,6 +526,8 @@ Notes
 This allows PlantaSanitus to evolve from a simple disease detector into a farm management platform.
 
 
+
+
 👨‍🌾 18. Farmer Community Forum
 
 The community module allows farmers to interact and share agricultural knowledge.
@@ -497,6 +541,8 @@ Images
 Expert verification
 
 The is_expert_verified field allows posts to be identified as expert-verified content.
+
+
 
 
 🏛️ 19. Government Schemes & Educational Resources
@@ -518,6 +564,9 @@ The Flask application exposes:
 /schemes
 /videos
 /guide
+
+
+
 
 📊 20. Disease History & Reports
 
@@ -547,6 +596,8 @@ Statistics
 Reports
 
 This allows farmers to track previous disease incidents.
+
+
 
 
 🗄️ 21. Database Architecture
@@ -599,6 +650,9 @@ Forum posts
 Notifications
 Audits
 
+
+
+
 🔐 22. Security Architecture
 
 Security is designed around the CIA Triad.
@@ -634,6 +688,10 @@ Application-level operational checks
  Passwords       XSS         Upload Limits
  Sessions        HMAC        Operational
  Authorization   Validation  Protection
+
+
+
+ 
  
 🏗️ 23. Overall System Architecture
 
@@ -686,6 +744,10 @@ Application-level operational checks
                           ▼
                  🌾 AGRICULTURAL
                   DECISION SUPPORT
+
+
+
+
                   
 💻 24. Technology Stack
 Layer	Technology
@@ -703,6 +765,9 @@ Payment	Simulated UPI / Card / COD
 QR	QR Generation Service
 Frontend	HTML / CSS / JavaScript
 Visualization	Matplotlib
+
+
+
 
 ⭐ 25. What Makes PlantaSanitus Different?
 
@@ -752,9 +817,15 @@ Alongside this, the platform integrates:
 PlantaSanitus transforms plant disease detection into an end-to-end agricultural decision-support ecosystem.
 
 
+
+
+
 🎤 26. Short Project Description for Viva
 
 PlantaSanitus is an AI-powered Smart Agriculture Platform developed to provide farmers with an integrated solution for plant disease diagnosis and agricultural decision support. The system combines computer vision, explainable AI, soil health analysis, weather intelligence, agro-medicine recommendations, farm management, and an e-commerce marketplace into a single web application. Farmers can upload leaf images for disease analysis, obtain information about symptoms, severity, treatment and prevention, analyze soil NPK and pH values, and receive agricultural guidance through the multilingual AgriBot assistant. The platform also allows farmers to purchase recommended agro-medicines through a marketplace with QR-based product guidance, simulated digital payments and order tracking. Separate Farmer, Seller and Admin roles provide role-based access and management capabilities. SQLite is used for persistent storage, while Flask provides the web application layer. Security mechanisms based on confidentiality, integrity and availability are incorporated throughout the system.
+
+
+
 
 
 🌿 27. One-Line Definition
