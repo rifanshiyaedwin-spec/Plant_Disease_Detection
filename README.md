@@ -1,6 +1,5 @@
 🌿 PlantaSanitus – Smart Agriculture Platform
 AI-Powered Agricultural Decision Support & Agro-Medicine E-Commerce Ecosystem
-
 📌 1. Project Overview
 
 PlantaSanitus is an AI-enabled Smart Agriculture Platform designed to help farmers identify plant diseases, determine disease severity, analyze soil health, monitor weather conditions, obtain treatment recommendations, and purchase agro-medicines through an integrated marketplace.
